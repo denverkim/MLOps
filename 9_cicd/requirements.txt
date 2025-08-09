@@ -1,4 +1,8 @@
 flask
 scikit-learn
 numpy
+<<<<<<< HEAD
 pickle
+=======
+pickle
+>>>>>>> 4d2312e35a3f939f5cc3c7137d2de4418aad6178
