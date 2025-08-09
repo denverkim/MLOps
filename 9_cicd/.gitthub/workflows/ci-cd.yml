@@ -20,7 +20,7 @@ jobs:
       - name: Install dependencies and train model
         run: |
           pip install -r requirements.txt
-          python /home/runner/work/MLOps/MLOps/9_cicd/model_train.py
+          python /home/runner/work/MLOps/MLOps/9_cicd/train_model.py
 
       - name: Build Docker image
         run: docker build -f Dockerfile -t 40days/iris-model .
